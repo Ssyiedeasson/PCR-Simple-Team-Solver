@@ -26,6 +26,9 @@ jobs:
           API_BASE="${{ vars.PCR_API_BASE }}"
           printf 'window.PCR_API_BASE = "%s";\n' "$API_BASE" > site/config.js
           echo "API base: $API_BASE"
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

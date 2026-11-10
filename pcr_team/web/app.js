@@ -43,7 +43,10 @@ function toast(msg, isError = false) {
   clearTimeout(toastTimer);
   toastTimer = setTimeout(() => { el.className = "toast"; }, 2800);
 }
-const API_BASE = (window.PCR_API_BASE || "").replace(/\/$/, "");
+function defaultApiBase() {
+  return (window.PCR_API_BASE || "").replace(/\/$/, "");
+}
+let API_BASE = (localStorage.getItem("pcr_api_base") || defaultApiBase()).replace(/\/$/, "");
 
 async function api(path, opts = {}) {
   const res = await fetch(API_BASE + path, {
@@ -819,6 +822,14 @@ function bind() {
 
   $("#btnPlan").onclick = doPlan;
   $("#btnAnalyze").onclick = doAnalyze;
+  $("#apiBaseUrl").value = localStorage.getItem("pcr_api_base") || defaultApiBase();
+  $("#apiBaseSave").onclick = () => {
+    const v = $("#apiBaseUrl").value.trim().replace(/\/$/, "");
+    if (v) localStorage.setItem("pcr_api_base", v); else localStorage.removeItem("pcr_api_base");
+    API_BASE = v;
+    toast(v ? "后端地址已保存：" + v : "已切换为同源后端");
+  };
+
   $("#btnSave").onclick = () => saveConfig(false);
   $("#btnReset").onclick = () => saveConfig(true);
   $("#provider").onchange = syncProvider;

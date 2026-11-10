@@ -130,6 +130,13 @@
         未配置时使用内置规则分析，功能不受影响。
       </p>
       <div class="field">
+        <label>后端地址 <span class="val">Pages 部署时填 Render 地址</span></label>
+        <div style="display:flex;gap:6px">
+          <input id="apiBaseUrl" type="text" placeholder="https://pcr-team-api.onrender.com">
+          <button class="btn small ghost" id="apiBaseSave">保存</button>
+        </div>
+      </div>
+      <div class="field">
         <label>分析提供方</label>
         <select id="provider">
           <option value="local">本地规则分析（离线）</option>
