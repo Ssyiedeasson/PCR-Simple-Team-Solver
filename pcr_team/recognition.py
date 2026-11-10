@@ -56,7 +56,7 @@ class IconLibrary:
         with open(self.index_path, encoding="utf-8") as f:
             entries = json.load(f)
         gw_entries = []
-        if os.path.exists(GW_INDEX):
+        if os.environ.get("PCR_RECOG_LIGHT") != "1" and os.path.exists(GW_INDEX):
             try:
                 with open(GW_INDEX, encoding="utf-8") as f:
                     gw_entries = json.load(f)
