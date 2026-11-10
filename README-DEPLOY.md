@@ -29,9 +29,7 @@ GitHub Pages（静态前端）  ──HTTPS──▶  Render（Python 后端 /ap
 ## 3. 配置 Pages
 
 1. 仓库 Settings → Pages → Build and deployment → Source 选 **GitHub Actions**；
-2. Settings → Secrets and variables → Actions → Variables → New variable：
-   - Name: `PCR_API_BASE`
-   - Value: Render 地址，例如 `https://pcr-team-api.onrender.com`
+2. 打开页面后，在「API 注入 → 后端地址」填入 Render 地址并保存（也可在仓库 Variables 设置 `PCR_API_BASE` 作为默认值）。
 3. 推送到 `main` 后，Actions 会自动构建并发布；
 4. 访问 `https://用户名.github.io/仓库名/`。
 
