@@ -1,0 +1,11 @@
+config.json
+__pycache__/
+*.pyc
+out.json
+.DS_Store
+pcr_team/data/icons_custom/
+pcr_team/data/icon_index_custom.json
+pcr_team/data/feedback.json
+dist/
+build/
+research2/

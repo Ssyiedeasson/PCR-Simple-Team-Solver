@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: pcr-team-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-render.txt
+    startCommand: python -m pcr_team.server --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/meta
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      - key: PCR_CORS_ORIGIN
+        value: "*"
+      # 如需固定使用服务端 API Key（推荐公开部署时设置，并在 UI 关闭配置）：
+      # - key: PCR_PROVIDER
+      #   value: openai
+      # - key: PCR_BASE_URL
+      #   value: https://api.deepseek.com/v1
+      # - key: PCR_MODEL
+      #   value: deepseek-chat
+      # - key: PCR_LLM_API_KEY
+      #   sync: false

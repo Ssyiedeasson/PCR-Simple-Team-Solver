@@ -1,0 +1,14 @@
+[
+ {
+  "severity": "low",
+  "category": "inferred",
+  "subject": "彩羽",
+  "detail": "wiki 类型为空，数据库按位置数值推断为 中卫"
+ },
+ {
+  "severity": "low",
+  "category": "inferred",
+  "subject": "苑",
+  "detail": "wiki 类型为空，数据库按位置数值推断为 中卫"
+ }
+]

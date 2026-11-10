@@ -1,0 +1,1737 @@
+[
+ {
+  "name": "莉玛",
+  "file": "莉玛.png",
+  "source": "gw"
+ },
+ {
+  "name": "宫子",
+  "file": "宫子.png",
+  "source": "gw"
+ },
+ {
+  "name": "空花",
+  "file": "空花.png",
+  "source": "gw"
+ },
+ {
+  "name": "空花（夏日）",
+  "file": "空花（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "纯",
+  "file": "纯.png",
+  "source": "gw"
+ },
+ {
+  "name": "矛依未（新年）",
+  "file": "矛依未（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "空花（大江户）",
+  "file": "空花（大江户）.png",
+  "source": "gw"
+ },
+ {
+  "name": "空花（黑暗）",
+  "file": "空花（黑暗）.png",
+  "source": "gw"
+ },
+ {
+  "name": "纯（圣诞节）",
+  "file": "纯（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "香织",
+  "file": "香织.png",
+  "source": "gw"
+ },
+ {
+  "name": "雷姆（夏日）",
+  "file": "雷姆（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "咲恋（圣诞节）",
+  "file": "咲恋（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "大和",
+  "file": "大和.png",
+  "source": "gw"
+ },
+ {
+  "name": "纺希（万圣节）",
+  "file": "纺希（万圣节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "怜（新年）",
+  "file": "怜（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "佩可莉姆",
+  "file": "佩可莉姆.png",
+  "source": "gw"
+ },
+ {
+  "name": "佩可莉姆（公主）",
+  "file": "佩可莉姆（公主）.png",
+  "source": "gw"
+ },
+ {
+  "name": "香织（万圣节）",
+  "file": "香织（万圣节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "流夏（沙漠）",
+  "file": "流夏（沙漠）.png",
+  "source": "gw"
+ },
+ {
+  "name": "流夏",
+  "file": "流夏.png",
+  "source": "gw"
+ },
+ {
+  "name": "可可萝（新年）",
+  "file": "可可萝（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "由加莉（夏日）",
+  "file": "由加莉（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "望",
+  "file": "望.png",
+  "source": "gw"
+ },
+ {
+  "name": "矛依未",
+  "file": "矛依未.png",
+  "source": "gw"
+ },
+ {
+  "name": "静流（夏日）",
+  "file": "静流（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "佩可莉姆（超负荷）",
+  "file": "佩可莉姆（超负荷）.png",
+  "source": "gw"
+ },
+ {
+  "name": "涅亚（夏日）",
+  "file": "涅亚（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "真琴",
+  "file": "真琴.png",
+  "source": "gw"
+ },
+ {
+  "name": "真琴（灰姑娘）",
+  "file": "真琴（灰姑娘）.png",
+  "source": "gw"
+ },
+ {
+  "name": "嘉夜",
+  "file": "嘉夜.png",
+  "source": "gw"
+ },
+ {
+  "name": "嘉夜（时间旅行）",
+  "file": "嘉夜（时间旅行）.png",
+  "source": "gw"
+ },
+ {
+  "name": "嘉夜（解放者）",
+  "file": "嘉夜（解放者）.png",
+  "source": "gw"
+ },
+ {
+  "name": "日和莉（新年）",
+  "file": "日和莉（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "莉玛（灰姑娘）",
+  "file": "莉玛（灰姑娘）.png",
+  "source": "gw"
+ },
+ {
+  "name": "妮侬（大江户）",
+  "file": "妮侬（大江户）.png",
+  "source": "gw"
+ },
+ {
+  "name": "真琴（夏日）",
+  "file": "真琴（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "秋乃",
+  "file": "秋乃.png",
+  "source": "gw"
+ },
+ {
+  "name": "纯（夏日）",
+  "file": "纯（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "茉莉（狂野）",
+  "file": "茉莉（狂野）.png",
+  "source": "gw"
+ },
+ {
+  "name": "克罗依（圣学祭）",
+  "file": "克罗依（圣学祭）.png",
+  "source": "gw"
+ },
+ {
+  "name": "克罗依",
+  "file": "克罗依.png",
+  "source": "gw"
+ },
+ {
+  "name": "茉莉",
+  "file": "茉莉.png",
+  "source": "gw"
+ },
+ {
+  "name": "茉莉（万圣节）",
+  "file": "茉莉（万圣节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "惠理子（情人节）",
+  "file": "惠理子（情人节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "克罗依（冬日）",
+  "file": "克罗依（冬日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "秋乃（圣诞节）",
+  "file": "秋乃（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "绫音（圣诞节）",
+  "file": "绫音（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "静流（黑暗）",
+  "file": "静流（黑暗）.png",
+  "source": "gw"
+ },
+ {
+  "name": "祈梨（新年）",
+  "file": "祈梨（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "流夏（夏日）",
+  "file": "流夏（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "流夏（新年）",
+  "file": "流夏（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "怜（星幽）",
+  "file": "怜（星幽）.png",
+  "source": "gw"
+ },
+ {
+  "name": "纺希",
+  "file": "纺希.png",
+  "source": "gw"
+ },
+ {
+  "name": "祈梨",
+  "file": "祈梨.png",
+  "source": "gw"
+ },
+ {
+  "name": "日和莉（公主）",
+  "file": "日和莉（公主）.png",
+  "source": "gw"
+ },
+ {
+  "name": "日和莉",
+  "file": "日和莉.png",
+  "source": "gw"
+ },
+ {
+  "name": "未奏希",
+  "file": "未奏希.png",
+  "source": "gw"
+ },
+ {
+  "name": "绫音",
+  "file": "绫音.png",
+  "source": "gw"
+ },
+ {
+  "name": "未奏希（万圣节）",
+  "file": "未奏希（万圣节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "珠希",
+  "file": "珠希.png",
+  "source": "gw"
+ },
+ {
+  "name": "珠希（工作服）",
+  "file": "珠希（工作服）.png",
+  "source": "gw"
+ },
+ {
+  "name": "智",
+  "file": "智.png",
+  "source": "gw"
+ },
+ {
+  "name": "矛依未（解放者）",
+  "file": "矛依未（解放者）.png",
+  "source": "gw"
+ },
+ {
+  "name": "千爱瑠",
+  "file": "千爱瑠.png",
+  "source": "gw"
+ },
+ {
+  "name": "千爱瑠（圣学祭）",
+  "file": "千爱瑠（圣学祭）.png",
+  "source": "gw"
+ },
+ {
+  "name": "秋乃（夏日）",
+  "file": "秋乃（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "珠希（夏日）",
+  "file": "珠希（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "日和莉（星幽）",
+  "file": "日和莉（星幽）.png",
+  "source": "gw"
+ },
+ {
+  "name": "惠理子",
+  "file": "惠理子.png",
+  "source": "gw"
+ },
+ {
+  "name": "佩可莉姆（夏日）",
+  "file": "佩可莉姆（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "未奏希（夏日）",
+  "file": "未奏希（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "克莉丝提娜（狂野）",
+  "file": "克莉丝提娜（狂野）.png",
+  "source": "gw"
+ },
+ {
+  "name": "胡桃",
+  "file": "胡桃.png",
+  "source": "gw"
+ },
+ {
+  "name": "姬塔",
+  "file": "姬塔.png",
+  "source": "gw"
+ },
+ {
+  "name": "千爱瑠（冬日）",
+  "file": "千爱瑠（冬日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "佩可莉姆（新年）",
+  "file": "佩可莉姆（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "怜",
+  "file": "怜.png",
+  "source": "gw"
+ },
+ {
+  "name": "怜（夏日）",
+  "file": "怜（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "祈梨（时间旅行）",
+  "file": "祈梨（时间旅行）.png",
+  "source": "gw"
+ },
+ {
+  "name": "伊莉亚（圣诞节）",
+  "file": "伊莉亚（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "忍（夏日）",
+  "file": "忍（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "杏奈（夏日）",
+  "file": "杏奈（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "绫音（探索者）",
+  "file": "绫音（探索者）.png",
+  "source": "gw"
+ },
+ {
+  "name": "菈比莉斯塔（超负荷）",
+  "file": "菈比莉斯塔（超负荷）.png",
+  "source": "gw"
+ },
+ {
+  "name": "智（万圣节）",
+  "file": "智（万圣节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "日和莉（夏日）",
+  "file": "日和莉（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "克莉丝提娜（圣诞节）",
+  "file": "克莉丝提娜（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "毗伽菈",
+  "file": "毗伽菈.png",
+  "source": "gw"
+ },
+ {
+  "name": "真琴（教官）",
+  "file": "真琴（教官）.png",
+  "source": "gw"
+ },
+ {
+  "name": "美冬（工作服）",
+  "file": "美冬（工作服）.png",
+  "source": "gw"
+ },
+ {
+  "name": "雪菲（新年）",
+  "file": "雪菲（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "静流",
+  "file": "静流.png",
+  "source": "gw"
+ },
+ {
+  "name": "克莉丝提娜",
+  "file": "克莉丝提娜.png",
+  "source": "gw"
+ },
+ {
+  "name": "祈梨（怪盗）",
+  "file": "祈梨（怪盗）.png",
+  "source": "gw"
+ },
+ {
+  "name": "杏奈（海盗）",
+  "file": "杏奈（海盗）.png",
+  "source": "gw"
+ },
+ {
+  "name": "惠理子（教官）",
+  "file": "惠理子（教官）.png",
+  "source": "gw"
+ },
+ {
+  "name": "胡桃（圣诞节）",
+  "file": "胡桃（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "莫妮卡（新年）",
+  "file": "莫妮卡（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "宫子（圣诞节）",
+  "file": "宫子（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "咲恋（沙漠）",
+  "file": "咲恋（沙漠）.png",
+  "source": "gw"
+ },
+ {
+  "name": "涅亚",
+  "file": "涅亚.png",
+  "source": "gw"
+ },
+ {
+  "name": "纺希（夏日）",
+  "file": "纺希（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "美美",
+  "file": "美美.png",
+  "source": "gw"
+ },
+ {
+  "name": "美美（夏日）",
+  "file": "美美（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "忍",
+  "file": "忍.png",
+  "source": "gw"
+ },
+ {
+  "name": "美美（万圣节）",
+  "file": "美美（万圣节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "雪菲",
+  "file": "雪菲.png",
+  "source": "gw"
+ },
+ {
+  "name": "雪菲（公主）",
+  "file": "雪菲（公主）.png",
+  "source": "gw"
+ },
+ {
+  "name": "吹雪",
+  "file": "吹雪.png",
+  "source": "gw"
+ },
+ {
+  "name": "佩可莉姆（圣诞节）",
+  "file": "佩可莉姆（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "克萝茜",
+  "file": "克萝茜.png",
+  "source": "gw"
+ },
+ {
+  "name": "怜（万圣节）",
+  "file": "怜（万圣节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "怜（公主）",
+  "file": "怜（公主）.png",
+  "source": "gw"
+ },
+ {
+  "name": "忍（海盗）",
+  "file": "忍（海盗）.png",
+  "source": "gw"
+ },
+ {
+  "name": "静流（情人节）",
+  "file": "静流（情人节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "真阳（游骑兵）",
+  "file": "真阳（游骑兵）.png",
+  "source": "gw"
+ },
+ {
+  "name": "真阳",
+  "file": "真阳.png",
+  "source": "gw"
+ },
+ {
+  "name": "真阳（圣诞节）",
+  "file": "真阳（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "智（魔法少女）",
+  "file": "智（魔法少女）.png",
+  "source": "gw"
+ },
+ {
+  "name": "由加莉",
+  "file": "由加莉.png",
+  "source": "gw"
+ },
+ {
+  "name": "惠理子（夏日）",
+  "file": "惠理子（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "由加莉（圣诞节）",
+  "file": "由加莉（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "莫妮卡",
+  "file": "莫妮卡.png",
+  "source": "gw"
+ },
+ {
+  "name": "妮侬",
+  "file": "妮侬.png",
+  "source": "gw"
+ },
+ {
+  "name": "望（夏日）",
+  "file": "望（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "望（圣诞节）",
+  "file": "望（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "由加莉（露营）",
+  "file": "由加莉（露营）.png",
+  "source": "gw"
+ },
+ {
+  "name": "美冬",
+  "file": "美冬.png",
+  "source": "gw"
+ },
+ {
+  "name": "铃（游骑兵）",
+  "file": "铃（游骑兵）.png",
+  "source": "gw"
+ },
+ {
+  "name": "望（解放者）",
+  "file": "望（解放者）.png",
+  "source": "gw"
+ },
+ {
+  "name": "伊莉亚（新年）",
+  "file": "伊莉亚（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "伊莉亚",
+  "file": "伊莉亚.png",
+  "source": "gw"
+ },
+ {
+  "name": "香织（夏日）",
+  "file": "香织（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "咲恋",
+  "file": "咲恋.png",
+  "source": "gw"
+ },
+ {
+  "name": "依里（圣诞节）",
+  "file": "依里（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "茜里（圣诞节）",
+  "file": "茜里（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "库露露",
+  "file": "库露露.png",
+  "source": "gw"
+ },
+ {
+  "name": "忍（万圣节）",
+  "file": "忍（万圣节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "杏奈",
+  "file": "杏奈.png",
+  "source": "gw"
+ },
+ {
+  "name": "美杜莎",
+  "file": "美杜莎.png",
+  "source": "gw"
+ },
+ {
+  "name": "雪（礼服）",
+  "file": "雪（礼服）.png",
+  "source": "gw"
+ },
+ {
+  "name": "莫妮卡（咖啡厅）",
+  "file": "莫妮卡（咖啡厅）.png",
+  "source": "gw"
+ },
+ {
+  "name": "七七香（夏日）",
+  "file": "七七香（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "美冬（夏日）",
+  "file": "美冬（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "可可萝",
+  "file": "可可萝.png",
+  "source": "gw"
+ },
+ {
+  "name": "露易丝玛丽",
+  "file": "露易丝玛丽.png",
+  "source": "gw"
+ },
+ {
+  "name": "步美（仙境）",
+  "file": "步美（仙境）.png",
+  "source": "gw"
+ },
+ {
+  "name": "步美",
+  "file": "步美.png",
+  "source": "gw"
+ },
+ {
+  "name": "妮侬（万圣节）",
+  "file": "妮侬（万圣节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "千歌（夏日）",
+  "file": "千歌（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "古蕾雅",
+  "file": "古蕾雅.png",
+  "source": "gw"
+ },
+ {
+  "name": "碧（工作服）",
+  "file": "碧（工作服）.png",
+  "source": "gw"
+ },
+ {
+  "name": "莫妮卡（魔法少女）",
+  "file": "莫妮卡（魔法少女）.png",
+  "source": "gw"
+ },
+ {
+  "name": "茜里（天使）",
+  "file": "茜里（天使）.png",
+  "source": "gw"
+ },
+ {
+  "name": "依里（天使）",
+  "file": "依里（天使）.png",
+  "source": "gw"
+ },
+ {
+  "name": "可可萝（礼服）",
+  "file": "可可萝（礼服）.png",
+  "source": "gw"
+ },
+ {
+  "name": "可可萝（夏日）",
+  "file": "可可萝（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "若菜",
+  "file": "若菜.png",
+  "source": "gw"
+ },
+ {
+  "name": "雷姆",
+  "file": "雷姆.png",
+  "source": "gw"
+ },
+ {
+  "name": "拉姆",
+  "file": "拉姆.png",
+  "source": "gw"
+ },
+ {
+  "name": "铃",
+  "file": "铃.png",
+  "source": "gw"
+ },
+ {
+  "name": "银莲",
+  "file": "银莲.png",
+  "source": "gw"
+ },
+ {
+  "name": "深月（大江户）",
+  "file": "深月（大江户）.png",
+  "source": "gw"
+ },
+ {
+  "name": "优衣（夏日）",
+  "file": "优衣（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "可可萝（公主）",
+  "file": "可可萝（公主）.png",
+  "source": "gw"
+ },
+ {
+  "name": "铃莓（春日）",
+  "file": "铃莓（春日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "菈比莉斯塔",
+  "file": "菈比莉斯塔.png",
+  "source": "gw"
+ },
+ {
+  "name": "似似花（新年）",
+  "file": "似似花（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "镜华（春日）",
+  "file": "镜华（春日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "斑比",
+  "file": "斑比.png",
+  "source": "gw"
+ },
+ {
+  "name": "深月",
+  "file": "深月.png",
+  "source": "gw"
+ },
+ {
+  "name": "初音（夏日）",
+  "file": "初音（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "伊莉亚（礼服）",
+  "file": "伊莉亚（礼服）.png",
+  "source": "gw"
+ },
+ {
+  "name": "茜里",
+  "file": "茜里.png",
+  "source": "gw"
+ },
+ {
+  "name": "依里",
+  "file": "依里.png",
+  "source": "gw"
+ },
+ {
+  "name": "优衣（礼服）",
+  "file": "优衣（礼服）.png",
+  "source": "gw"
+ },
+ {
+  "name": "花凛（炼金术师）",
+  "file": "花凛（炼金术师）.png",
+  "source": "gw"
+ },
+ {
+  "name": "铃（万圣节）",
+  "file": "铃（万圣节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "咲恋（夏日）",
+  "file": "咲恋（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "凯露（超负荷）",
+  "file": "凯露（超负荷）.png",
+  "source": "gw"
+ },
+ {
+  "name": "宫子（万圣节）",
+  "file": "宫子（万圣节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "步美（怪盗）",
+  "file": "步美（怪盗）.png",
+  "source": "gw"
+ },
+ {
+  "name": "深月（新年）",
+  "file": "深月（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "亚里莎",
+  "file": "亚里莎.png",
+  "source": "gw"
+ },
+ {
+  "name": "安",
+  "file": "安.png",
+  "source": "gw"
+ },
+ {
+  "name": "露",
+  "file": "露.png",
+  "source": "gw"
+ },
+ {
+  "name": "真步（灰姑娘）",
+  "file": "真步（灰姑娘）.png",
+  "source": "gw"
+ },
+ {
+  "name": "似似花（夏日）",
+  "file": "似似花（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "似似花",
+  "file": "似似花.png",
+  "source": "gw"
+ },
+ {
+  "name": "霸瞳皇帝",
+  "file": "霸瞳皇帝.png",
+  "source": "gw"
+ },
+ {
+  "name": "碧（插班生）",
+  "file": "碧（插班生）.png",
+  "source": "gw"
+ },
+ {
+  "name": "兰法（夏日）",
+  "file": "兰法（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "凯露（新年）",
+  "file": "凯露（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "琳德",
+  "file": "琳德.png",
+  "source": "gw"
+ },
+ {
+  "name": "美里（夏日）",
+  "file": "美里（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "美里（新年）",
+  "file": "美里（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "璃乃",
+  "file": "璃乃.png",
+  "source": "gw"
+ },
+ {
+  "name": "真步（梦想乐园）",
+  "file": "真步（梦想乐园）.png",
+  "source": "gw"
+ },
+ {
+  "name": "铃奈",
+  "file": "铃奈.png",
+  "source": "gw"
+ },
+ {
+  "name": "铃奈（夏日）",
+  "file": "铃奈（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "帆稀（新年）",
+  "file": "帆稀（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "优妮（冬日）",
+  "file": "优妮（冬日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "帆稀（夏日）",
+  "file": "帆稀（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "栞",
+  "file": "栞.png",
+  "source": "gw"
+ },
+ {
+  "name": "栞（游骑兵）",
+  "file": "栞（游骑兵）.png",
+  "source": "gw"
+ },
+ {
+  "name": "咲恋（新年）",
+  "file": "咲恋（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "栞（魔法少女）",
+  "file": "栞（魔法少女）.png",
+  "source": "gw"
+ },
+ {
+  "name": "伊绪（黑暗）",
+  "file": "伊绪（黑暗）.png",
+  "source": "gw"
+ },
+ {
+  "name": "伊绪",
+  "file": "伊绪.png",
+  "source": "gw"
+ },
+ {
+  "name": "伊绪（夏日）",
+  "file": "伊绪（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "铃莓",
+  "file": "铃莓.png",
+  "source": "gw"
+ },
+ {
+  "name": "铃莓（新年）",
+  "file": "铃莓（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "克蕾琪塔（圣诞节）",
+  "file": "克蕾琪塔（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "爱蜜莉雅",
+  "file": "爱蜜莉雅.png",
+  "source": "gw"
+ },
+ {
+  "name": "爱蜜莉雅（夏日）",
+  "file": "爱蜜莉雅（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "帆稀",
+  "file": "帆稀.png",
+  "source": "gw"
+ },
+ {
+  "name": "璃乃（仙境）",
+  "file": "璃乃（仙境）.png",
+  "source": "gw"
+ },
+ {
+  "name": "美空",
+  "file": "美空.png",
+  "source": "gw"
+ },
+ {
+  "name": "香澄",
+  "file": "香澄.png",
+  "source": "gw"
+ },
+ {
+  "name": "香澄（魔法少女）",
+  "file": "香澄（魔法少女）.png",
+  "source": "gw"
+ },
+ {
+  "name": "碧（露营）",
+  "file": "碧（露营）.png",
+  "source": "gw"
+ },
+ {
+  "name": "胡桃（舞台）",
+  "file": "胡桃（舞台）.png",
+  "source": "gw"
+ },
+ {
+  "name": "美里",
+  "file": "美里.png",
+  "source": "gw"
+ },
+ {
+  "name": "香澄（夏日）",
+  "file": "香澄（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "香澄（新年）",
+  "file": "香澄（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "七七香",
+  "file": "七七香.png",
+  "source": "gw"
+ },
+ {
+  "name": "莱拉耶尔",
+  "file": "莱拉耶尔.png",
+  "source": "gw"
+ },
+ {
+  "name": "七七香（万圣节）",
+  "file": "七七香（万圣节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "美咲（舞台）",
+  "file": "美咲（舞台）.png",
+  "source": "gw"
+ },
+ {
+  "name": "优衣（新年）",
+  "file": "优衣（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "爱梅斯",
+  "file": "爱梅斯.png",
+  "source": "gw"
+ },
+ {
+  "name": "凯露（公主）",
+  "file": "凯露（公主）.png",
+  "source": "gw"
+ },
+ {
+  "name": "伊绪（圣诞节）",
+  "file": "伊绪（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "凯露",
+  "file": "凯露.png",
+  "source": "gw"
+ },
+ {
+  "name": "莱拉耶尔（圣诞节）",
+  "file": "莱拉耶尔（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "铃奈（插班生）",
+  "file": "铃奈（插班生）.png",
+  "source": "gw"
+ },
+ {
+  "name": "克蕾琪塔",
+  "file": "克蕾琪塔.png",
+  "source": "gw"
+ },
+ {
+  "name": "可可萝（游骑兵）",
+  "file": "可可萝（游骑兵）.png",
+  "source": "gw"
+ },
+ {
+  "name": "美空（夏日）",
+  "file": "美空（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "初音",
+  "file": "初音.png",
+  "source": "gw"
+ },
+ {
+  "name": "美咲",
+  "file": "美咲.png",
+  "source": "gw"
+ },
+ {
+  "name": "铃奈（万圣节）",
+  "file": "铃奈（万圣节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "璃乃（圣诞节）",
+  "file": "璃乃（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "露娜",
+  "file": "露娜.png",
+  "source": "gw"
+ },
+ {
+  "name": "优衣（公主）",
+  "file": "优衣（公主）.png",
+  "source": "gw"
+ },
+ {
+  "name": "千歌（圣诞节）",
+  "file": "千歌（圣诞节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "优衣（星幽）",
+  "file": "优衣（星幽）.png",
+  "source": "gw"
+ },
+ {
+  "name": "望（炼金术师）",
+  "file": "望（炼金术师）.png",
+  "source": "gw"
+ },
+ {
+  "name": "维尔姆",
+  "file": "维尔姆.png",
+  "source": "gw"
+ },
+ {
+  "name": "铃莓（夏日）",
+  "file": "铃莓（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "凯露（夏日）",
+  "file": "凯露（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "兰法",
+  "file": "兰法.png",
+  "source": "gw"
+ },
+ {
+  "name": "碧",
+  "file": "碧.png",
+  "source": "gw"
+ },
+ {
+  "name": "花凛",
+  "file": "花凛.png",
+  "source": "gw"
+ },
+ {
+  "name": "千歌",
+  "file": "千歌.png",
+  "source": "gw"
+ },
+ {
+  "name": "真步（夏日）",
+  "file": "真步（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "真步（探索者）",
+  "file": "真步（探索者）.png",
+  "source": "gw"
+ },
+ {
+  "name": "真步",
+  "file": "真步.png",
+  "source": "gw"
+ },
+ {
+  "name": "雪（大江户）",
+  "file": "雪（大江户）.png",
+  "source": "gw"
+ },
+ {
+  "name": "优衣",
+  "file": "优衣.png",
+  "source": "gw"
+ },
+ {
+  "name": "厄里斯",
+  "file": "厄里斯.png",
+  "source": "gw"
+ },
+ {
+  "name": "初音（新年）",
+  "file": "初音（新年）.png",
+  "source": "gw"
+ },
+ {
+  "name": "凯露（插班生）",
+  "file": "凯露（插班生）.png",
+  "source": "gw"
+ },
+ {
+  "name": "雪",
+  "file": "雪.png",
+  "source": "gw"
+ },
+ {
+  "name": "优妮",
+  "file": "优妮.png",
+  "source": "gw"
+ },
+ {
+  "name": "优妮（圣学祭）",
+  "file": "优妮（圣学祭）.png",
+  "source": "gw"
+ },
+ {
+  "name": "镜华",
+  "file": "镜华.png",
+  "source": "gw"
+ },
+ {
+  "name": "镜华（夏日）",
+  "file": "镜华（夏日）.png",
+  "source": "gw"
+ },
+ {
+  "name": "美咲（万圣节）",
+  "file": "美咲（万圣节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "镜华（万圣节）",
+  "file": "镜华（万圣节）.png",
+  "source": "gw"
+ },
+ {
+  "name": "珠希（咖啡厅）",
+  "file": "珠希（咖啡厅）.png",
+  "source": "gw"
+ },
+ {
+  "name": "涅比亚",
+  "file": "涅比亚.png",
+  "source": "gw"
+ },
+ {
+  "name": "ウヅキ(デレマス)",
+  "file": "ウヅキ(デレマス).png",
+  "source": "gw"
+ },
+ {
+  "name": "リン(デレマス)",
+  "file": "リン(デレマス).png",
+  "source": "gw"
+ },
+ {
+  "name": "ミオ(デレマス)",
+  "file": "ミオ(デレマス).png",
+  "source": "gw"
+ },
+ {
+  "name": "リン(ハロウィン)",
+  "file": "リン(ハロウィン).png",
+  "source": "gw"
+ },
+ {
+  "name": "リリ(フォールン)",
+  "file": "リリ(フォールン).png",
+  "source": "gw"
+ },
+ {
+  "name": "クリア(フォールン)",
+  "file": "クリア(フォールン).png",
+  "source": "gw"
+ },
+ {
+  "name": "プレシア(フォールン)",
+  "file": "プレシア(フォールン).png",
+  "source": "gw"
+ },
+ {
+  "name": "ジータ(ウォーロック)",
+  "file": "ジータ(ウォーロック).png",
+  "source": "gw"
+ },
+ {
+  "name": "リリ(サマー)",
+  "file": "リリ(サマー).png",
+  "source": "gw"
+ },
+ {
+  "name": "ネフィネラ",
+  "file": "ネフィネラ.png",
+  "source": "gw"
+ },
+ {
+  "name": "イロハ",
+  "file": "イロハ.png",
+  "source": "gw"
+ },
+ {
+  "name": "ソノ",
+  "file": "ソノ.png",
+  "source": "gw"
+ },
+ {
+  "name": "グレイス",
+  "file": "グレイス.png",
+  "source": "gw"
+ },
+ {
+  "name": "ラビリスタ(アルファ)",
+  "file": "ラビリスタ(アルファ).png",
+  "source": "gw"
+ },
+ {
+  "name": "ネネカ(アルファ)",
+  "file": "ネネカ(アルファ).png",
+  "source": "gw"
+ },
+ {
+  "name": "クリスティーナ(アルファ)",
+  "file": "クリスティーナ(アルファ).png",
+  "source": "gw"
+ },
+ {
+  "name": "フィオ",
+  "file": "フィオ.png",
+  "source": "gw"
+ },
+ {
+  "name": "ランファ(儀装束)",
+  "file": "ランファ(儀装束).png",
+  "source": "gw"
+ },
+ {
+  "name": "チカ(儀装束)",
+  "file": "チカ(儀装束).png",
+  "source": "gw"
+ },
+ {
+  "name": "アオイ(パイロット)",
+  "file": "アオイ(パイロット).png",
+  "source": "gw"
+ },
+ {
+  "name": "クローチェ(エアリアル)",
+  "file": "クローチェ(エアリアル).png",
+  "source": "gw"
+ },
+ {
+  "name": "ホウオウ",
+  "file": "ホウオウ.png",
+  "source": "gw"
+ },
+ {
+  "name": "ヴァイオレット",
+  "file": "ヴァイオレット.png",
+  "source": "gw"
+ },
+ {
+  "name": "ツムギ(ジオゲヘナ)",
+  "file": "ツムギ(ジオゲヘナ).png",
+  "source": "gw"
+ },
+ {
+  "name": "カノン",
+  "file": "カノン.png",
+  "source": "gw"
+ },
+ {
+  "name": "エリス(サマー)",
+  "file": "エリス(サマー).png",
+  "source": "gw"
+ },
+ {
+  "name": "シェフィ(サマー)",
+  "file": "シェフィ(サマー).png",
+  "source": "gw"
+ },
+ {
+  "name": "プレシア(サマー)",
+  "file": "プレシア(サマー).png",
+  "source": "gw"
+ },
+ {
+  "name": "クリア(サマー)",
+  "file": "クリア(サマー).png",
+  "source": "gw"
+ },
+ {
+  "name": "アネモネ(サマー)",
+  "file": "アネモネ(サマー).png",
+  "source": "gw"
+ },
+ {
+  "name": "ニノン(サマー)",
+  "file": "ニノン(サマー).png",
+  "source": "gw"
+ },
+ {
+  "name": "アイラ",
+  "file": "アイラ.png",
+  "source": "gw"
+ },
+ {
+  "name": "ヒヨリ(サラサリア)",
+  "file": "ヒヨリ(サラサリア).png",
+  "source": "gw"
+ },
+ {
+  "name": "シナツ",
+  "file": "シナツ.png",
+  "source": "gw"
+ },
+ {
+  "name": "ユキノ",
+  "file": "ユキノ.png",
+  "source": "gw"
+ },
+ {
+  "name": "サツキ",
+  "file": "サツキ.png",
+  "source": "gw"
+ },
+ {
+  "name": "サクラ",
+  "file": "サクラ.png",
+  "source": "gw"
+ },
+ {
+  "name": "アラクネ",
+  "file": "アラクネ.png",
+  "source": "gw"
+ },
+ {
+  "name": "カスミ(シスター)",
+  "file": "カスミ(シスター).png",
+  "source": "gw"
+ },
+ {
+  "name": "ナーナ",
+  "file": "ナーナ.png",
+  "source": "gw"
+ },
+ {
+  "name": "ミソラ(クリスマス)",
+  "file": "ミソラ(クリスマス).png",
+  "source": "gw"
+ },
+ {
+  "name": "ユイ(クリスマス)",
+  "file": "ユイ(クリスマス).png",
+  "source": "gw"
+ },
+ {
+  "name": "コッコロ(嚮導幼君)",
+  "file": "コッコロ(嚮導幼君).png",
+  "source": "gw"
+ },
+ {
+  "name": "シズル(ニューイヤー)",
+  "file": "シズル(ニューイヤー).png",
+  "source": "gw"
+ },
+ {
+  "name": "リノ(ニューイヤー)",
+  "file": "リノ(ニューイヤー).png",
+  "source": "gw"
+ },
+ {
+  "name": "ヴァイオレット(イサナミ)",
+  "file": "ヴァイオレット(イサナミ).png",
+  "source": "gw"
+ },
+ {
+  "name": "ネフィネラ(鬼面仏心)",
+  "file": "ネフィネラ(鬼面仏心).png",
+  "source": "gw"
+ },
+ {
+  "name": "ペコリーヌ(アストライア)",
+  "file": "ペコリーヌ(アストライア).png",
+  "source": "gw"
+ },
+ {
+  "name": "ライラエル(パルフェクト)",
+  "file": "ライラエル(パルフェクト).png",
+  "source": "gw"
+ },
+ {
+  "name": "ワカナ(ウィンター)",
+  "file": "ワカナ(ウィンター).png",
+  "source": "gw"
+ },
+ {
+  "name": "シオリ(ウィンター)",
+  "file": "シオリ(ウィンター).png",
+  "source": "gw"
+ },
+ {
+  "name": "グレイス(バニー)",
+  "file": "グレイス(バニー).png",
+  "source": "gw"
+ },
+ {
+  "name": "キョウカ(ゴシック)",
+  "file": "キョウカ(ゴシック).png",
+  "source": "gw"
+ },
+ {
+  "name": "キャル(覇瞳天星)",
+  "file": "キャル(覇瞳天星).png",
+  "source": "gw"
+ },
+ {
+  "name": "ミホ(ガルパン)",
+  "file": "ミホ(ガルパン).png",
+  "source": "gw"
+ },
+ {
+  "name": "マホ(ガルパン)",
+  "file": "マホ(ガルパン).png",
+  "source": "gw"
+ },
+ {
+  "name": "エリカ(ガルパン)",
+  "file": "エリカ(ガルパン).png",
+  "source": "gw"
+ },
+ {
+  "name": "ルルィ",
+  "file": "ルルィ.png",
+  "source": "gw"
+ },
+ {
+  "name": "リリ(ヴァルキュリア)",
+  "file": "リリ(ヴァルキュリア).png",
+  "source": "gw"
+ },
+ {
+  "name": "プレシア(ヴァルキュリア)",
+  "file": "プレシア(ヴァルキュリア).png",
+  "source": "gw"
+ },
+ {
+  "name": "クリア(ヴァルキュリア)",
+  "file": "クリア(ヴァルキュリア).png",
+  "source": "gw"
+ },
+ {
+  "name": "シェフィ(ヴァードラッヘ)",
+  "file": "シェフィ(ヴァードラッヘ).png",
+  "source": "gw"
+ },
+ {
+  "name": "ルイズマリー(サマー)",
+  "file": "ルイズマリー(サマー).png",
+  "source": "gw"
+ },
+ {
+  "name": "クレジッタ(サマー)",
+  "file": "クレジッタ(サマー).png",
+  "source": "gw"
+ },
+ {
+  "name": "フブキ(サマー)",
+  "file": "フブキ(サマー).png",
+  "source": "gw"
+ },
+ {
+  "name": "ヴァンピィ(サマー)",
+  "file": "ヴァンピィ(サマー).png",
+  "source": "gw"
+ },
+ {
+  "name": "ティア",
+  "file": "ティア.png",
+  "source": "gw"
+ },
+ {
+  "name": "ヴルム(ヴァルムドラッヘ)",
+  "file": "ヴルム(ヴァルムドラッヘ).png",
+  "source": "gw"
+ },
+ {
+  "name": "リーザ",
+  "file": "リーザ.png",
+  "source": "gw"
+ },
+ {
+  "name": "クローチェ(サブマリン)",
+  "file": "クローチェ(サブマリン).png",
+  "source": "gw"
+ },
+ {
+  "name": "サレン(ガンナー)",
+  "file": "サレン(ガンナー).png",
+  "source": "gw"
+ },
+ {
+  "name": "アメス(ガンナー)",
+  "file": "アメス(ガンナー).png",
+  "source": "gw"
+ },
+ {
+  "name": "アグライア",
+  "file": "アグライア.png",
+  "source": "gw"
+ },
+ {
+  "name": "ゴールドシップ",
+  "file": "ゴールドシップ.png",
+  "source": "gw"
+ },
+ {
+  "name": "アーモンドアイ",
+  "file": "アーモンドアイ.png",
+  "source": "gw"
+ }
+]

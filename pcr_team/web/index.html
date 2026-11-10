@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>兰德索尔配队工坊 · PCR 自动配队</title>
+<meta name="description" content="公主连结 Re:Dive 自动配队器：输入任意数量角色，自动规划多套最佳阵容，并支持 API 注入分析。">
+<meta name="theme-color" content="#0b0f1a">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='25' font-size='24'>⚔️</text></svg>">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <div class="crest">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M12 2.6 20 6v6.2c0 4.4-3.2 7.6-8 9.2-4.8-1.6-8-4.8-8-9.2V6l8-3.4Z"
+              stroke="#e8c37a" stroke-width="1.3" fill="rgba(232,195,122,.10)"/>
+        <path d="m12 7.2 1.25 2.8 3.05.3-2.3 2.05.66 3L12 13.8l-2.66 1.55.66-3-2.3-2.05 3.05-.3L12 7.2Z"
+              fill="#f8e7bd"/>
+      </svg>
+    </div>
+    <div>
+      <h1>兰德索尔配队工坊</h1>
+      <p>PCR 自动配队 · 无限角色池 · 多队规划 · API 分析</p>
+    </div>
+  </div>
+  <div class="top-stats">
+    <div class="stat"><b id="statChars">—</b><span>可组队角色</span></div>
+    <div class="stat"><b id="statVersion">—</b><span>数据版本</span></div>
+    <div class="stat"><b>2</b><span>数据源</span></div>
+  </div>
+</header>
+
+<main class="layout">
+  <!-- ══════════════ 左侧 ══════════════ -->
+  <aside class="sidebar">
+
+    <section class="panel">
+      <div class="panel-head">
+        <div class="step">1</div>
+        <h2>角色池</h2>
+        <span class="hint">数量不限</span>
+      </div>
+      <div class="roster-box">
+        <textarea id="chars" spellcheck="false"
+          placeholder="粘贴你拥有的角色，空格 / 逗号 / 换行分隔，支持外号：&#10;真琴 香织 克莉丝提娜 咲恋 优衣&#10;佩可莉姆、宫子、凯露（夏日）、镜华…"></textarea>
+      </div>
+      <div class="roster-meta">
+        <span>已识别 <b id="count">0</b> 名</span>
+        <span id="unknownWrap" class="unknown" hidden>· 未识别 <b id="unknownCount">0</b></span>
+      </div>
+      <div class="quick">
+        <button class="chip-btn" id="btnExample">示例角色池</button>
+        <button class="chip-btn" id="btnAll">全角色</button>
+        <button class="chip-btn" id="btnClear">清空</button>
+        <button class="chip-btn" id="btnPick">随机 20 人</button>
+        <button class="chip-btn" id="btnRecognize">识图导入</button>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div class="step">2</div>
+        <h2>规划参数</h2>
+      </div>
+      <div class="field">
+        <label>战斗场景</label>
+        <div class="segmented" id="modeSeg">
+          <button data-mode="pve" class="on">PVE · 公会战</button>
+          <button data-mode="pvp">PVP · 竞技场</button>
+        </div>
+      </div>
+      <div class="field">
+        <label>对首领的有效效果 <span class="val">可选 · 多选</span></label>
+        <div class="effect-chips" id="effectChips"></div>
+        <div class="effect-hint" id="effectHint">不选则按通用强度配队</div>
+      </div>
+      <div class="field">
+        <label>队伍数量 <span class="val" id="teamHint">自动排满</span></label>
+        <div class="stepper">
+          <button id="teamMinus" type="button">−</button>
+          <input id="teamCount" type="number" min="0" max="200" value="0">
+          <span class="unit">队</span>
+          <button id="teamPlus" type="button">＋</button>
+        </div>
+      </div>
+      <div class="switch-row">
+        <div>
+          <div class="t">允许角色跨队重复</div>
+          <div class="s">PVP 多方案对比时使用</div>
+        </div>
+        <label class="switch"><input type="checkbox" id="reuse"><i></i></label>
+      </div>
+      <div class="switch-row">
+        <div>
+          <div class="t">三队连战（含顺序）</div>
+          <div class="s">第 1 队打完，第 2 队接着打，依次生成 3 队</div>
+        </div>
+        <label class="switch"><input type="checkbox" id="sequence"><i></i></label>
+      </div>
+      <div class="switch-row">
+        <div>
+          <div class="t">包含未实装角色</div>
+          <div class="s">wiki 标记为未实装，技能数据可能不完整</div>
+        </div>
+        <label class="switch"><input type="checkbox" id="unreleased"><i></i></label>
+      </div>
+      <div class="field">
+        <label>排除角色 <span class="val">可选</span></label>
+        <input id="exclude" type="text" placeholder="例如：初音、杏奈">
+      </div>
+      <button class="btn primary" id="btnPlan">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M13 2 4.5 13.5H11L9.5 22 19 10h-6.5L13 2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        开始配队
+      </button>
+    </section>
+
+    <section class="panel api-panel">
+      <div class="panel-head">
+        <div class="step">3</div>
+        <h2>API 注入</h2>
+        <span class="hint">可选</span>
+      </div>
+      <p class="api-note">
+        把配队结果与角色数据注入分析 API（OpenAI 兼容 / 自定义 HTTP）。
+        未配置时使用内置规则分析，功能不受影响。
+      </p>
+      <div class="field">
+        <label>分析提供方</label>
+        <select id="provider">
+          <option value="local">本地规则分析（离线）</option>
+          <option value="openai">OpenAI 兼容 / DeepSeek</option>
+          <option value="custom">自定义 HTTP 注入</option>
+        </select>
+      </div>
+      <div id="openaiFields">
+        <div class="field">
+          <label>Base URL</label>
+          <input id="baseUrl" type="text" placeholder="https://api.deepseek.com/v1">
+        </div>
+        <div class="field">
+          <label>模型</label>
+          <input id="model" type="text" placeholder="deepseek-chat">
+        </div>
+        <div class="field">
+          <label>API Key <span class="val" id="keyState"></span></label>
+          <input id="apiKey" type="password" placeholder="sk-... （仅保存在本地 config.json）" autocomplete="off">
+        </div>
+      </div>
+      <div id="customFields" hidden>
+        <div class="field">
+          <label>注入地址</label>
+          <input id="customUrl" type="text" placeholder="http://127.0.0.1:9000/analyze">
+        </div>
+        <details class="advanced">
+          <summary>请求模板与取值路径</summary>
+          <div class="field">
+            <label>Body 模板</label>
+            <textarea id="customBody" style="min-height:70px" spellcheck="false"></textarea>
+          </div>
+          <div class="field">
+            <label>响应文本路径</label>
+            <input id="customPath" type="text" placeholder="choices.0.message.content">
+          </div>
+        </details>
+      </div>
+      <details class="advanced">
+        <summary>提示词与补充信息</summary>
+        <div class="field">
+          <label>System Prompt</label>
+          <textarea id="systemPrompt" style="min-height:80px" spellcheck="false"></textarea>
+        </div>
+        <div class="field">
+          <label>补充信息（版本 / 练度 / BOSS 机制）</label>
+          <textarea id="extraContext" style="min-height:64px" placeholder="例如：台服 2026-11 环境；真琴 5★ 专武；BOSS 会沉默前排…"></textarea>
+        </div>
+      </details>
+      <div class="api-actions">
+        <button class="btn small gold-outline" id="btnSave">保存配置</button>
+        <button class="btn small ghost" id="btnReset">清除 Key</button>
+      </div>
+      <div class="config-state"><span class="dot" id="cfgDot"></span><span id="cfgText">尚未保存</span></div>
+    </section>
+
+    <section class="panel feedback-panel">
+      <div class="panel-head">
+        <div class="step">4</div>
+        <h2>反馈 / Bug</h2>
+        <span class="hint">直接写入</span>
+      </div>
+      <p class="api-note">
+        描述遇到的问题即可。已配置 API 时会连同角色池、最近配队等上下文当场分诊并返回处理建议；
+        未配置时只记录并给出本地排查清单。
+      </p>
+      <div class="field">
+        <label>问题分类</label>
+        <select id="fbCategory">
+          <option>配队算法</option>
+          <option>截图识别</option>
+          <option>角色数据</option>
+          <option>界面/交互</option>
+          <option>性能/报错</option>
+          <option>其他</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>问题描述 <span class="val">必填</span></label>
+        <textarea id="fbText" spellcheck="false" style="min-height:96px"
+          placeholder="例如：识别 8 人截图时只自动选中了 3 个，其余需要手点，能不能自动全选？"></textarea>
+      </div>
+      <div class="field">
+        <label>联系方式 <span class="val">可选</span></label>
+        <input id="fbContact" type="text" placeholder="邮箱 / QQ / 其他（可不填）">
+      </div>
+      <div class="fb-actions">
+        <button class="btn small gold-outline" id="fbSubmit">提交反馈</button>
+        <button class="btn small ghost" id="fbRecent">最近反馈</button>
+      </div>
+      <div id="fbReply" class="md fb-reply" hidden></div>
+      <div id="fbList" class="fb-list" hidden></div>
+    </section>
+  </aside>
+
+  <!-- ══════════════ 右侧 ══════════════ -->
+  <section class="content">
+    <div class="results-head">
+      <div>
+        <h2>配队方案</h2>
+        <div class="sub" id="resultSub">输入角色后点击「开始配队」</div>
+      </div>
+      <div class="actions">
+        <button class="btn small ghost" id="btnExport" disabled>导出 JSON</button>
+        <button class="btn small gold-outline" id="btnAnalyze" disabled>API 分析</button>
+      </div>
+    </div>
+
+    <div id="teamList">
+      <div class="empty">
+        <svg class="rings" width="76" height="76" viewBox="0 0 76 76" fill="none">
+          <circle cx="38" cy="38" r="30" stroke="rgba(232,195,122,.35)" stroke-dasharray="3 5"/>
+          <circle cx="38" cy="38" r="20" stroke="rgba(232,195,122,.22)"/>
+          <path d="M38 24v18l11 7" stroke="#e8c37a" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <h3>等待编成</h3>
+        <p>左侧粘贴角色名并开始配队。引擎会按承伤、破甲、输出、TP 循环与治疗覆盖，搜索最优 5 人组合，并在多队之间分配角色。</p>
+      </div>
+    </div>
+
+    <section class="panel analysis">
+      <div class="panel-head">
+        <div class="step" style="background:linear-gradient(140deg,#b9ccff,#7fa4ff);color:#0a1020">AI</div>
+        <h2>阵容分析</h2>
+        <span class="hint" id="analysisSource"></span>
+      </div>
+      <div id="analysisBody" class="analysis-empty">
+        生成队伍后，点击右上角「API 分析」：已配置 API 时调用你的模型，未配置时输出本地规则分析。
+        提示词会自动携带队伍成员、定位、评分细项与未上场角色。
+      </div>
+    </section>
+  </section>
+</main>
+
+<footer class="foot">
+  数据来源：<a href="https://wiki.biligame.com/pcr/首页" target="_blank" rel="noopener">biligame 公主连结 Wiki</a>
+  · <a href="https://pcredivewiki.tw/" target="_blank" rel="noopener">兰德索尔图书馆 pcredivewiki.tw</a>
+  · 角色定位与标签由技能文本自动抽取，强度分层为启发式，可在 <code>pcr_team/data/meta.json</code> 中调整。
+  评分用于同池横向比较，不等同于实战绝对强度。
+</footer>
+
+<div class="modal" id="recogModal" hidden>
+  <div class="modal-card">
+    <header class="modal-head">
+      <div>
+        <h3>截图识别角色</h3>
+        <p>上传角色一览 / 队伍编组截图，自动检测头像并匹配角色库</p>
+      </div>
+      <button class="modal-close" id="recogClose" aria-label="关闭">×</button>
+    </header>
+    <div class="modal-body">
+      <div class="dropzone" id="dropzone">
+        <input id="fileInput" type="file" accept="image/png,image/jpeg,image/webp" multiple hidden>
+        <div class="dz-icon">＋</div>
+        <div class="dz-title">点击选择（可多选），或把多张截图拖到这里</div>
+        <div class="dz-sub">支持 PNG / JPG；每张可含多个头像格，批量识别后一次导入</div>
+      </div>
+      <div class="recog-preview" id="previewWrap" hidden>
+        <img id="previewImg" alt="上传的截图">
+      </div>
+      <div class="recog-status" id="recogStatus"></div>
+      <div class="recog-results" id="recogResults"></div>
+    </div>
+    <footer class="modal-foot">
+      <span class="recog-hint" id="recogHint">低置信度的结果请手动确认</span>
+      <div class="modal-actions">
+        <button class="btn small ghost" id="recogReset">重新选择</button>
+        <button class="btn small primary" id="recogAdd" disabled>加入角色池</button>
+      </div>
+    </footer>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+<script>
+  if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost" || location.hostname === "127.0.0.1")) {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  }
+</script>
+</body>
+</html>
